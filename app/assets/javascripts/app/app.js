@@ -170,5 +170,7 @@ var app = {
 
 $(function() {
   app.initialize();
+  $('form').areYouSure();
 });
+
 // @license-end
